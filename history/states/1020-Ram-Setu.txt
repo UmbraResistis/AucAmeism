@@ -1,0 +1,20 @@
+state={
+	id=1020
+	name="STATE_1020"
+	resources={
+		rubber=19.000
+	}
+	provinces={
+		7265 
+	}
+	manpower=2082775
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+	history={
+		owner = RAJ
+		buildings = {
+			infrastructure = 3
+		}
+	}
+}

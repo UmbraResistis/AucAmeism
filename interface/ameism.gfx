@@ -1,0 +1,14 @@
+spriteTypes = {
+    spriteType = {
+		name = GFX_ideology_ameist_group
+		texturefile = gfx\interface\ideologies\ameist_group.dds
+	}
+    SpriteType = {
+		name = "GFX_portrait_hol_amelia"
+ 	  	texturefile = "gfx/leaders/HOL/portrait_hol_amelia.dds"
+	}
+    SpriteType = {
+		name = "GFX_portrait_ast_auca"
+ 	  	texturefile = "gfx/leaders/AST/portrait_ast_auca.dds"
+	}
+}
