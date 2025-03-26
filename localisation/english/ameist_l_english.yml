@@ -3,9 +3,9 @@
  ameist:0 "Ameist"
  ameist_noun:0 "Ameism"
  aucameism:0 "Aucameism"
- aucameism_desc:0 "A reformist socialist ideology mainly focused on the benefit of the people above the money. Mainly a democratic form but often has a figurehead leader who is seen as a semi-authoritary figure."
+ aucameism_desc:0 "Aucameism is a reformist socialist ideology mainly focused on the benefit of the people above the money. Mainly a democratic form but often has a figurehead leader who is seen as a semi-authoritary figure."
  national_ameism:0 "National-Ameism"
- national_ameism_desc:0 "A reformist socialist ideology mainly focused on the benefit of the people above the money, except with more nationalistic and authoritarian tendencies."
+ national_ameism_desc:0 "National-Ameism is a reformist socialist ideology mainly focused on the benefit of the people above the money, except with more nationalistic and authoritarian tendencies."
 
  ameist_party:0 "AP"
  ameist_party_long:0 "Ameist Party"
@@ -32,5 +32,6 @@
  HOL_amelia:0 "Amelia"
  HOL_wizard:0 "Totally Not A Homeless Wizard"
  AST_auca:0 "Auca"
+ AST_shado:0 "Shado"
  
  
