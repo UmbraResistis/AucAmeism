@@ -1215,9 +1215,7 @@
  STATE_1020: "Ram Setu"
  STATE_1021: "Ruhr"
  STATE_1022: "Overijssel"
-
-
-
-
-
-
+ STATE_1023: "Toruń"
+ GER_STATE_1023: "Thorn"
+ STATE_1024: "Bydgoszcz"
+ GER_STATE_1024: "Bromberg"

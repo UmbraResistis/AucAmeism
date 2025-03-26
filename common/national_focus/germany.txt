@@ -10488,6 +10488,8 @@ focus_tree = {
 			188 = { is_owned_by = GER }
 			85 = { is_owned_by = GER }
 			86 = { is_owned_by = GER }
+			1023 = { is_owned_by = GER }
+			1024 = { is_owned_by = GER }
 		}
 		
 		available = { 
@@ -10520,6 +10522,8 @@ focus_tree = {
 			807 = { add_claim_by = GER }
 			86 = { add_claim_by = GER }
 			762 = { add_claim_by = GER }
+			1023 = { add_claim_by = GER }
+			1024 = { add_claim_by = GER }
 
 			add_named_threat = { threat = 3 name = GER_demand_memel_threat }
 
@@ -11500,8 +11504,11 @@ focus_tree = {
 					add_state_core = 85
 					transfer_state = 807
 					add_state_core = 807
+					transfer_state = 1023
+					add_state_core = 1023
 					remove_state_claim = 86
 					remove_state_claim = 762
+					remove_state_claim = 1024
 				}
 				POL = {
 					country_event = { id = germany.86 }

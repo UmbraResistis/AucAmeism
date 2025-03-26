@@ -1,0 +1,33 @@
+state = {
+	id = 1024
+	name = "STATE_1024"
+	manpower = 101910
+	
+	state_category = rural
+
+	history = {
+
+		owner = POL
+		add_core_of = POL
+		add_core_of = KSH
+		add_claim_by = PRE
+
+		victory_points = {
+			279 1 # Bydgoszcz
+		}
+
+		buildings = {
+			infrastructure = 3 #was: 6
+		}
+		
+		1938.3.12 = {
+			add_claim_by = GER
+		}
+	}
+
+	provinces = {
+		243 279 
+	}
+
+	local_supplies = 0.0 
+}

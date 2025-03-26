@@ -1,0 +1,144 @@
+characters={
+	HOL_amelia={
+		advisor={
+			slot = political_advisor
+			idea_token = HOL_amelia
+			allowed  = {
+				original_tag  = HOL
+				NOT = { has_completed_focus = HOL_gateway_to_europe }
+			}
+			available = {
+				has_completed_focus = HOL_radical_pivot
+				NOT = {
+					has_country_leader = {
+						ruling_only = yes # default = yes
+						character = HOL_amelia
+					}
+				}
+			}
+			traits  = {
+				ameist_reformer
+			}
+		}
+		name=HOL_amelia
+		gender = female 
+		portraits={
+			civilian={
+				large="GFX_portrait_HOL_amelia"
+			}
+			army = {
+				small="GFX_idea_HOL_amelia"
+			}
+		}
+		country_leader={
+			ideology=aucameism
+			traits={ aucameist_revolutionary }
+			expire="2005.1.1.1"
+			id=-1
+		}
+	}
+	
+	HOL_wizard={
+		advisor={
+			slot = political_advisor
+			idea_token = HOL_wizard
+			allowed  = {
+				original_tag  = HOL
+				has_government = ameist
+			}
+			available = {
+				has_government = ameist
+			}
+			traits  = {
+				wizard_magical_theorist
+			}
+		}
+		scientist = {
+			traits = { }
+			skills = {
+				specialization_nuclear = 2
+			}
+		}
+		name= HOL_wizard
+		portraits={
+			civilian={
+				large="GFX_portrait_HOL_wizard"
+			}
+			army = {
+				large ="GFX_portrait_HOL_wizard"
+				small="GFX_idea_HOL_wizard"
+			}
+		}
+	}
+	
+	AST_auca={
+		advisor={
+			slot = political_advisor
+			idea_token = AST_auca
+			allowed  = {
+				original_tag  = AST
+			}
+			available = {
+				NOT = {
+					has_country_leader = {
+						ruling_only = yes # default = yes
+						character = AST_auca
+					}
+				}
+				
+			}
+			traits  = {
+				ameist_reformer
+			}
+		}
+		name=AST_auca
+		gender = female 
+		portraits={
+			civilian={
+				large="GFX_portrait_AST_auca"
+			}
+			army = {
+				small="GFX_idea_AST_auca"
+			}
+		}
+		country_leader={
+			ideology=aucameism
+			traits={ aucameist_revolutionary }
+			expire="2005.1.1.1"
+			id=-1
+		}
+	}
+	
+	AST_shado={
+		name=AST_shado
+		advisor={
+			slot = political_advisor
+			idea_token = AST_shado
+			allowed  = {
+				original_tag  = AST
+				has_government = ameist
+			}
+			available = {
+				has_government = ameist
+			}
+			traits  = { 
+				shado_worker_drone 
+				shado_anti_nationalist 
+			}
+		}
+		portraits={
+			civilian={
+				large="GFX_portrait_AST_shado"
+			}
+			army = {
+				small="GFX_idea_AST_shado"
+			}
+		}
+		country_leader={
+			ideology=aucameism
+			traits={ shado_worker_drone shado_anti_nationalist }
+			expire="2005.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -89,6 +89,8 @@ if = {
 }
 
 recruit_character = AST_auca
+recruit_character = AST_shado
+
 recruit_character = AST_john_curtin
 recruit_character = AST_eric_campbell
 recruit_character = AST_richard_dixon

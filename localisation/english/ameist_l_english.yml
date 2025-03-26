@@ -19,11 +19,18 @@
  FRA_ameist_party_long: "Parti Social-Ameiste"
  LUX_democratic_party: "AP"
  LUX_democratic_party_long: "Ameistesch Partei"
-
  ameist_reformer:0 "Ameist Reformer"
+
  ameist_reformer_advisor:0 "Ameist Reformer"
  ameist_drift:0 "Daily Ameism Support"
  national_ameist_revolutionary:0 "National-Ameist Revolutionary"
  aucameist_revolutionary:0 "Aucameist Revolutionary"
+ wizard_magical_theorist:0 "Magical Theorist"
+ shado_anti_nationalist:0 "Anti-Nationalist"
+ shado_worker_drone:0 "Tireless Worker Drone"
+ 
  HOL_amelia:0 "Amelia"
+ HOL_wizard:0 "Totally Not A Homeless Wizard"
  AST_auca:0 "Auca"
+ 
+ 

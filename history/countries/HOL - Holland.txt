@@ -124,6 +124,8 @@ if = {
 }
 
 recruit_character = HOL_amelia
+recruit_character = HOL_wizard
+
 recruit_character = HOL_hendrikus_colijn
 recruit_character = HOL_anton_mussert
 recruit_character = HOL_lou_de_visser

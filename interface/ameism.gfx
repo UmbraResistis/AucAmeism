@@ -4,11 +4,35 @@ spriteTypes = {
 		texturefile = gfx\interface\ideologies\ameist_group.dds
 	}
     SpriteType = {
-		name = "GFX_portrait_hol_amelia"
- 	  	texturefile = "gfx/leaders/HOL/portrait_hol_amelia.dds"
+		name = "GFX_portrait_HOL_amelia"
+ 	  	texturefile = "gfx/leaders/Aucameism/portrait_HOL_amelia.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_HOL_amelia"
+		texturefile = "gfx/interface/ideas/idea_HOL_amelia.dds"
 	}
     SpriteType = {
-		name = "GFX_portrait_ast_auca"
- 	  	texturefile = "gfx/leaders/AST/portrait_ast_auca.dds"
+		name = "GFX_portrait_AST_auca"
+ 	  	texturefile = "gfx/leaders/Aucameism/portrait_AST_auca.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_AST_auca"
+		texturefile = "gfx/interface/ideas/idea_AST_auca.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_HOL_wizard"
+		texturefile = "gfx/interface/ideas/idea_HOL_wizard.dds"
+	}
+    SpriteType = {
+		name = "GFX_portrait_HOL_wizard"
+ 	  	texturefile = "gfx/leaders/scientists/portrait_HOL_wizard.dds"
+	}
+    SpriteType = {
+		name = "GFX_idea_AST_shado"
+ 	  	texturefile = "gfx/interface/ideas/idea_AST_shado.dds"
+	}
+    SpriteType = {
+		name = "GFX_portrait_AST_shado"
+ 	  	texturefile = "gfx/leaders/Aucameism/portrait_ast_shado.dds"
 	}
 }
