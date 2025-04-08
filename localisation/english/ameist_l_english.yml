@@ -1,37 +1,52 @@
 ﻿l_english:
 
- ameist:0 "Ameist"
- ameist_noun:0 "Ameism"
- aucameism:0 "Aucameism"
- aucameism_desc:0 "Aucameism is a reformist socialist ideology mainly focused on the benefit of the people above the money. Mainly a democratic form but often has a figurehead leader who is seen as a semi-authoritary figure."
- national_ameism:0 "National-Ameism"
- national_ameism_desc:0 "National-Ameism is a reformist socialist ideology mainly focused on the benefit of the people above the money, except with more nationalistic and authoritarian tendencies."
+ # ideology
+  ameist:0 "Ameist"
+  ameist_noun:0 "Ameism"
+  aucameism:0 "Aucameism"
+  aucameism_desc:0 "Aucameism is a reformist socialist ideology mainly focused on the benefit of the people above the money. Mainly a democratic form but often has a figurehead leader who is seen as a semi-authoritary figure."
+  national_ameism:0 "National-Ameism"
+  national_ameism_desc:0 "National-Ameism is a reformist socialist ideology mainly focused on the benefit of the people above the money, except with more nationalistic and authoritarian tendencies."
 
- ameist_party:0 "AP"
- ameist_party_long:0 "Ameist Party"
- GER_ameist_party: "NAP"
- GER_ameist_party_long: "National-Ameistische Partei"
- HOL_ameist_party: "NAP"
- HOL_ameist_party_long: "Nationaal-Ameistische Partij"
- BEL_ameist_party: "SAP"
- BEL_ameist_party_long: "Sociaal-Ameistische Partij"
- FRA_ameist_party: "PSA"
- FRA_ameist_party_long: "Parti Social-Ameiste"
- LUX_democratic_party: "AP"
- LUX_democratic_party_long: "Ameistesch Partei"
- ameist_reformer:0 "Ameist Reformer"
+ # Party Names
+  ameist_party:0 "AP"
+  ameist_party_long:0 "Ameist Party"
+  GER_ameist_party: "NAP"
+  GER_ameist_party_long: "National-Ameistische Partei"
+  HOL_ameist_party: "NAP"
+  HOL_ameist_party_long: "Nationaal-Ameistische Partij"
+  BEL_ameist_party: "SAP"
+  BEL_ameist_party_long: "Sociaal-Ameistische Partij"
+  FRA_ameist_party: "PSA"
+  FRA_ameist_party_long: "Parti Social-Ameiste"
+  LUX_democratic_party: "AP"
+  LUX_democratic_party_long: "Ameistesch Partei"
+  ameist_reformer:0 "Ameist Reformer"
 
- ameist_reformer_advisor:0 "Ameist Reformer"
- ameist_drift:0 "Daily Ameism Support"
- national_ameist_revolutionary:0 "National-Ameist Revolutionary"
- aucameist_revolutionary:0 "Aucameist Revolutionary"
- wizard_magical_theorist:0 "Magical Theorist"
- shado_anti_nationalist:0 "Anti-Nationalist"
- shado_worker_drone:0 "Tireless Worker Drone"
+ # Traits
+   ameist_reformer_advisor:0 "Ameist Reformer"
+   ameist_drift:0 "Daily Ameism Support"
+   national_ameist_revolutionary:0 "National-Ameist Revolutionary"
+   aucameist_revolutionary:0 "Aucameist Revolutionary"
+   wizard_magical_theorist:0 "Magical Theorist"
+   shado_anti_nationalist:0 "Anti-Nationalist"
+   shado_worker_drone:0 "Tireless Worker Drone"
+   jdog_trade_union_reformer:0 "Trade Union Reformer"
+   twontie_the_regime_knows_best:0 "The Regime Knows Best"
+   twontie_the_regime:0 "The Regime"
+   ame_illegitimate_monarch:0 "Illegitimate Monarch"
+   ame_new_queen:0 "The New Queen"
  
- HOL_amelia:0 "Amelia"
- HOL_wizard:0 "Totally Not A Homeless Wizard"
- AST_auca:0 "Auca"
- AST_shado:0 "Shado"
+ #Characters
+  HOL_amelia:0 "Amelia"
+  AST_auca:0 "Auca"
+  HOL_wizard:0 "Totally Not A Homeless Wizard"
+  AST_shado:0 "Shado"
+  HOL_jdog:0 "J-Dog"
+  HOL_twontie:0 "Twontie"
  
- 
+ #Focuses
+  HOL_radical_pivot:0 "A Radical Pivot"
+  
+ #Focus Description
+  

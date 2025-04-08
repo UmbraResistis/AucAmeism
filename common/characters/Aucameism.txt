@@ -44,7 +44,7 @@ characters={
 			idea_token = HOL_wizard
 			allowed  = {
 				original_tag  = HOL
-				has_government = ameist
+				has_completed_focus = HOL_radical_pivot
 			}
 			available = {
 				has_government = ameist
@@ -55,6 +55,9 @@ characters={
 		}
 		scientist = {
 			traits = { }
+			available = ( 			
+				has_completed_focus = HOL_radical_pivot
+			)
 			skills = {
 				specialization_nuclear = 2
 			}
@@ -134,9 +137,67 @@ characters={
 				small="GFX_idea_AST_shado"
 			}
 		}
+	}
+	
+	HOL_jdog={
+		advisor={
+			slot = political_advisor
+			idea_token = HOL_jdog
+			allowed  = {
+				original_tag  = HOL
+				has_completed_focus = HOL_radical_pivot
+			}
+			available = {
+				has_government = ameist
+			}
+			traits  = { 
+				jdog_trade_union_reformer
+			}
+		}
+		name=HOL_jdog
+		portraits={
+			civilian={
+				large="GFX_portrait_HOL_jdog"
+			}
+			army = {
+				small="GFX_idea_HOL_jdog"
+			}
+		}
+	}
+	
+	HOL_twontie={
+		name=HOL_twontie
+		advisor={
+			slot = political_advisor
+			idea_token = HOL_twontie
+			allowed  = {
+				original_tag  = HOL
+				has_completed_focus = HOL_radical_pivot
+			}
+			available = {
+				has_government = ameist
+				NOT = {
+					has_country_leader = {
+						ruling_only = yes # default = yes
+						character = HOL_twontie
+					}
+				}
+			}
+			traits  = { 
+				twontie_the_regime_knows_best
+			}
+		}
+		portraits={
+			civilian={
+				large="GFX_portrait_HOL_twontie"
+			}
+			army = {
+				small="GFX_idea_HOL_twontie"
+			}
+		}
 		country_leader={
 			ideology=aucameism
-			traits={ shado_worker_drone shado_anti_nationalist }
+			traits={ twontie_the_regime }
 			expire="2005.1.1.1"
 			id=-1
 		}

@@ -1,0 +1,6 @@
+spriteTypes = {
+    SpriteType = {
+		name = "GFX_portrait_the_thing"
+ 	  	texturefile = gfx\leaders\Aucameism\BAD STUFF\EVIL STUFF\STUFF OF THE DEVIL\DO NOT ENTER\ENTRY AT OWN RISK\I WARNED YOU\portrait_the_thing.dds"
+	}
+}

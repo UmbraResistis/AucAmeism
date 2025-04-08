@@ -33,6 +33,26 @@ spriteTypes = {
 	}
     SpriteType = {
 		name = "GFX_portrait_AST_shado"
- 	  	texturefile = "gfx/leaders/Aucameism/portrait_ast_shado.dds"
+ 	  	texturefile = "gfx/leaders/Aucameism/portrait_AST_shado.dds"
+	}
+    SpriteType = {
+		name = "GFX_idea_HOL_jdog"
+ 	  	texturefile = "gfx/interface/ideas/idea_HOL_jdog.dds"
+	}
+    SpriteType = {
+		name = "GFX_portrait_HOL_jdog"
+ 	  	texturefile = "gfx/leaders/Aucameism/portrait_HOL_jdog.dds"
+	}
+    SpriteType = {
+		name = "GFX_idea_HOL_twontie"
+ 	  	texturefile = "gfx/interface/ideas/idea_HOL_twontie.dds"
+	}
+    SpriteType = {
+		name = "GFX_portrait_HOL_twontie"
+ 	  	texturefile = "gfx/leaders/Aucameism/portrait_HOL_twontie.dds"
+	}
+    SpriteType = {
+		name = "GFX_focus_generic_ameism"
+ 	  	texturefile = "gfx/interface/goals/focus_generic_ameism.dds"
 	}
 }

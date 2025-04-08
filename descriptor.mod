@@ -8,5 +8,5 @@ tags={
 	"Events"
 }
 name="Aucameism"
-supported_version="1.16.2"
+supported_version="1.16.4"
 remote_file_id="3451136282"

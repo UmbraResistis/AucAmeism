@@ -1,18 +1,4 @@
 characters={
-	HOL_amelia={
-		name=HOL_amelia
-		portraits={
-			civilian={
-				large="GFX_portrait_hol_amelia"
-			}
-		}
-		country_leader={
-			ideology=aucameism
-			traits={ aucameist_revolutionary }
-			expire="2005.1.1.1"
-			id=-1
-		}
-	}
 	HOL_hendrikus_colijn={
 		name=HOL_hendrikus_colijn
 		portraits={
@@ -667,6 +653,7 @@ characters={
 					has_capitulated  = yes 
 					or  = {
 						has_government  = democratic 
+						has_government  = ameist 
 						has_government  = neutrality 
 					}
 				}
@@ -692,6 +679,7 @@ characters={
 				available  = {
 					or  = {
 						has_government  = democratic 
+						has_government  = ameist 
 						has_government  = neutrality 
 					}
 				}
@@ -767,6 +755,7 @@ characters={
 				available  = {
 					or  = {
 						has_government  = democratic 
+						has_government  = ameist 
 						has_government  = neutrality 
 					}
 				}

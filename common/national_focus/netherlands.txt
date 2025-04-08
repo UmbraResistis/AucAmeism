@@ -1431,6 +1431,7 @@ focus_tree = {
 		available = {
 			has_full_control_of_state = 7
 			has_full_control_of_state = 36
+			has_full_control_of_state = 1022
 		}
 		prerequisite = { focus = HOL_expand_the_artillerieinrichtingen }
 		mutually_exclusive = { focus = HOL_curtail_colonial_autonomy }
@@ -1459,7 +1460,15 @@ focus_tree = {
 				}
 			}
 			36 = {
-				add_extra_state_shared_building_slots = 4
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			1022 = {
+				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = infrastructure
 					level = 1
@@ -1475,6 +1484,7 @@ focus_tree = {
 		id = HOL_develop_the_randstad
 		available = {
 			has_full_control_of_state = 7
+			has_full_control_of_state = 1022
 		}
 		prerequisite = { focus = HOL_the_zuiderzee_works }
 		mutually_exclusive = { focus = HOL_develop_the_zandstad }
@@ -1520,7 +1530,7 @@ focus_tree = {
 							}
 						}
 					}
-					add_extra_state_shared_building_slots = 3
+					add_extra_state_shared_building_slots = 1
 					add_building_construction = {
 						type = industrial_complex
 						level = 3
@@ -1539,7 +1549,6 @@ focus_tree = {
 							}
 						}
 					}
-					add_extra_state_shared_building_slots = 1
 					add_building_construction = {
 						type = industrial_complex
 						level = 1
@@ -1719,7 +1728,6 @@ focus_tree = {
 							}
 						}
 					}
-					add_extra_state_shared_building_slots = 2
 					add_building_construction = {
 						type = industrial_complex
 						level = 2
@@ -1738,7 +1746,6 @@ focus_tree = {
 							}
 						}
 					}
-					add_extra_state_shared_building_slots = 2
 					add_building_construction = {
 						type = industrial_complex
 						level = 2
@@ -6723,15 +6730,8 @@ focus_tree = {
 		available = {
 
 		}
-	
-		bypass = {
-			OR = {
-				has_war_with = GER
-				has_war_with = ENG
-			}
-		}
 		
-		icon = GFX_focus_NOR_restore_public_trust_in_the_storting 
+		icon = GFX_focus_generic_ameism 
 		cancel_if_invalid = no
 		x = 2
 		y = 1
@@ -6739,6 +6739,18 @@ focus_tree = {
 		cost = 10
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_POLITICAL}
+		
+		offset = {
+			x = -43
+			y = 0
+			trigger = {
+				has_game_rule = {
+					rule = obsolete_focus_branches_visibility
+					option = HIDE
+				}
+				has_completed_focus = HOL_radical_pivot
+			}
+		}
 
 		completion_reward = {
 			ROOT = {
