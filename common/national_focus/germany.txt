@@ -12189,6 +12189,7 @@ focus_tree = {
 			is_subject = no
 			has_full_control_of_state = 8
 			has_full_control_of_state = 28
+			has_full_control_of_state = 1025
 			OR = {
 				owns_state = 28
 				FRA = { has_capitulated = yes }
@@ -12217,14 +12218,21 @@ focus_tree = {
 		completion_reward = {
 			add_state_core = 8
 			add_state_core = 28
+			add_state_core = 1025
 			if = {
 				limit = {
 					NOT = { owns_state = 28 }
 				}
 				transfer_state = 28
 			}
+			if = {
+				limit = {
+					NOT = { owns_state = 1025 }
+				}
+				transfer_state = 1025
+			}
 			# Currently these names will now instead be dynamically renamed upon becoming owned by Germany
-			#28 = { set_state_name = "Elsass-Lothringen" }
+			#28 = { set_state_name = "Elsass" }
 			#set_province_name = { id = 9503 name = "Strassburg" }
 			#set_province_name = { id = 678 name = "Mulhausen" }
 			if = {
@@ -31746,6 +31754,7 @@ focus_tree = {
 			add_named_threat = { threat = 5 name = GER_reject_the_locarno_treaty }
 
 			add_state_claim = 28
+			add_state_claim = 1025
 			28 = {
 				controller = {
 					ROOT = {
@@ -36137,8 +36146,10 @@ focus_tree = {
 				expire = 0
 			}
 			add_state_claim = 28
+			add_state_claim = 1025
 			add_state_claim = 773
 			add_state_claim = 777
+			add_state_claim = 1026
 		}
 	}
 

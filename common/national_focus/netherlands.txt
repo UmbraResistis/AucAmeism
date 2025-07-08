@@ -6728,7 +6728,10 @@ focus_tree = {
 		}
 		
 		available = {
-
+			OR = {
+				ruling_party = democratic
+				ruling_party = ameist
+			}
 		}
 		
 		icon = GFX_focus_generic_ameism 
@@ -6741,7 +6744,7 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_POLITICAL}
 		
 		offset = {
-			x = -43
+			x = -2
 			y = 0
 			trigger = {
 				has_game_rule = {
