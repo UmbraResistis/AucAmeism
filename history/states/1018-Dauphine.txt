@@ -1,31 +1,22 @@
-
 state={
-	id=1031
-	name="STATE_1031"
-	
+	id=1018
+	name="STATE_1018"
+
 	history={
 		owner = FRA
 		add_core_of = OCC
 		add_core_of = FRA
 		add_claim_by = SPM
-		victory_points = {
-			9909 5 
-		}
 		buildings = {
 			infrastructure = 2
-			9909 = {
-				naval_base = 2
-
-			}
-
 		}
 
 	}
-
 	provinces={
-		3959 9909
+		764 3764 6975 9736 
 	}
-	manpower=363000
+	manpower=226880
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=rural
 	local_supplies=0.000
+}

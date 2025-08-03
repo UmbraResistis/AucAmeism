@@ -12,9 +12,6 @@ state = {
 
 		buildings = {
 			infrastructure = 1
-
-			# Gileppe Dam
-			3488 = { dam = 1 }
 		}
 		
 	}
