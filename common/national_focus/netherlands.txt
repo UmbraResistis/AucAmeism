@@ -6729,8 +6729,8 @@ focus_tree = {
 		
 		available = {
 			OR = {
-				ruling_party = democratic
-				ruling_party = ameist
+				has_government = democratic
+				has_government = ameist
 			}
 		}
 		

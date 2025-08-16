@@ -80,8 +80,16 @@ characters={
 			idea_token = AST_auca
 			allowed  = {
 				original_tag  = AST
+				NOT = {
+					OR = {
+						has_completed_focus = FAST_support_the_policy_of_appeasement
+						has_completed_focus = AST_abandon_the_westminster_system
+						has_completed_focus = AST_protect_the_homeland
+					}
+				}
 			}
 			available = {
+				has_completed_focus = AST_a_new_idea
 				NOT = {
 					has_country_leader = {
 						ruling_only = yes # default = yes

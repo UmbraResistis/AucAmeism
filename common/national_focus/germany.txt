@@ -12219,6 +12219,7 @@ focus_tree = {
 			add_state_core = 8
 			add_state_core = 28
 			add_state_core = 1025
+			add_state_core = 1029
 			if = {
 				limit = {
 					NOT = { owns_state = 28 }
@@ -12231,10 +12232,12 @@ focus_tree = {
 				}
 				transfer_state = 1025
 			}
-			# Currently these names will now instead be dynamically renamed upon becoming owned by Germany
-			#28 = { set_state_name = "Elsass" }
-			#set_province_name = { id = 9503 name = "Strassburg" }
-			#set_province_name = { id = 678 name = "Mulhausen" }
+			if = {
+				limit = {
+					NOT = { owns_state = 1029 }
+				}
+				transfer_state = 1029
+			}
 			if = {
 				limit = {
 					has_global_flag = flag_franco_british_union

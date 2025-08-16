@@ -3847,7 +3847,6 @@ GER_reichskommissariats = {
 				id = wuw_GER_reichskommissariats.2
 				hours = 0
 			}	
-			
 		}
 	}
 
@@ -13423,6 +13422,7 @@ GER_reich_labor_service_cat = {
 			51 = { is_fully_controlled_by = ROOT }
 			51 = { is_fully_controlled_by = ROOT }
 			42 = { is_fully_controlled_by = ROOT }
+			1021 = { is_fully_controlled_by = ROOT }
 		}
 
 		cancel_trigger = { 
@@ -13434,6 +13434,7 @@ GER_reich_labor_service_cat = {
 				51 = { is_controlled_by = ROOT }
 				51 = { is_controlled_by = ROOT }
 				42 = { is_controlled_by = ROOT }
+				1021 = { is_controlled_by = ROOT }
 			} 
 		}
 
@@ -13445,6 +13446,7 @@ GER_reich_labor_service_cat = {
 				state = 55 #Hessen
 				state = 51 #Rhineland
 				state = 42 #Moselland
+				state = 1021 #Ruhr
 			}
 		}
 
@@ -13456,6 +13458,7 @@ GER_reich_labor_service_cat = {
 				state = 55 #Hessen
 				state = 51 #Rhineland
 				state = 42 #Moselland
+				state = 1021 #Ruhr
 			}
 		}
 
@@ -13479,6 +13482,7 @@ GER_reich_labor_service_cat = {
 						state = 55 #Hessen
 						state = 51 #Rhineland
 						state = 42 #Moselland
+						state = 1021 #Ruhr
 					}
 				}
 				add_extra_state_shared_building_slots = 1
@@ -13626,6 +13630,22 @@ GER_reich_labor_service_cat = {
 					188 = { is_controlled_by = ROOT }
 				}
 			}
+			if = {
+				limit = {
+					1023 = { is_core_of = ROOT }
+				}
+				NOT = {
+					1023 = { is_controlled_by = ROOT }
+				}
+			}
+			if = {
+				limit = {
+					1024 = { is_core_of = ROOT }
+				}
+				NOT = {
+					1024 = { is_controlled_by = ROOT }
+				}
+			}
 		}
 
 		highlight_states = {
@@ -13639,6 +13659,8 @@ GER_reich_labor_service_cat = {
 				state = 86 #Poznan, hinting to the player they can develop this state too
 				state = 762 #Katowice, hinting to the player they can develop this state too
 				state = 188 #Memel, hinting to the player they can develop this state too
+				state = 1023 #Torun, hinting to the player they can develop this state too
+				state = 1024 #Bydgoszcz, hinting to the player they can develop this state too
 			}
 		}
 
@@ -13665,6 +13687,8 @@ GER_reich_labor_service_cat = {
 						state = 86 #Poznan - in case Germany has cored it
 						state = 762 #Katowice- in case Germany has cored it
 						state = 188 #Memel - in case Germany has cored it
+						state = 1023 #Torun - in case Germany has cored it
+						state = 1024 #Bydgoszcz - in case Germany has cored it
 					}
 				}
 				add_extra_state_shared_building_slots = 1
@@ -13983,7 +14007,7 @@ GER_integration_of_puppet_economies_dec_cat = {
 }
 
 GER_rebuild_the_nation_cat = {
-	GER_state_development_west = {
+	GER_western_state_development = {
 		priority = 1
 		icon = GFX_decision_generic_construction
 
@@ -14003,6 +14027,7 @@ GER_rebuild_the_nation_cat = {
 			51 = { is_fully_controlled_by = ROOT }
 			51 = { is_fully_controlled_by = ROOT }
 			42 = { is_fully_controlled_by = ROOT }
+			1021 = { is_fully_controlled_by = ROOT }
 		}
 
 		cancel_trigger = { 
@@ -14014,6 +14039,7 @@ GER_rebuild_the_nation_cat = {
 				51 = { is_controlled_by = ROOT }
 				51 = { is_controlled_by = ROOT }
 				42 = { is_controlled_by = ROOT }
+				1021 = { is_controlled_by = ROOT }
 			} 
 		}
 
@@ -14025,6 +14051,19 @@ GER_rebuild_the_nation_cat = {
 				state = 55 #Hessen
 				state = 51 #Rhineland
 				state = 42 #Moselland
+				state = 1021 #Ruhr
+			}
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 56 #Weser-Ems
+				state = 59 #Hannover
+				state = 57 #Westfalen
+				state = 55 #Hessen
+				state = 51 #Rhineland
+				state = 42 #Moselland
+				state = 1021 #Ruhr
 			}
 		}
 
@@ -14048,11 +14087,12 @@ GER_rebuild_the_nation_cat = {
 						state = 55 #Hessen
 						state = 51 #Rhineland
 						state = 42 #Moselland
+						state = 1021 #Ruhr
 					}
 				}
 				add_extra_state_shared_building_slots = 1
 				add_dynamic_modifier = { 
-					modifier = GER_public_works_modifier
+					modifier = GER_reichs_labor_initiative_modifier
 					days = 545
 					scope = GER
 				}
@@ -14140,8 +14180,7 @@ GER_rebuild_the_nation_cat = {
 			}
 		}
 	}
-
-	GER_state_development_east = {
+	GER_eastern_state_development = {
 		priority = 1
 		icon = GFX_decision_generic_construction
 
@@ -14207,6 +14246,22 @@ GER_rebuild_the_nation_cat = {
 					188 = { is_controlled_by = ROOT }
 				}
 			}
+			if = {
+				limit = {
+					1023 = { is_core_of = ROOT }
+				}
+				NOT = {
+					1023 = { is_controlled_by = ROOT }
+				}
+			}
+			if = {
+				limit = {
+					1024 = { is_core_of = ROOT }
+				}
+				NOT = {
+					1024 = { is_controlled_by = ROOT }
+				}
+			}
 		}
 
 		highlight_states = {
@@ -14220,6 +14275,8 @@ GER_rebuild_the_nation_cat = {
 				state = 86 #Poznan, hinting to the player they can develop this state too
 				state = 762 #Katowice, hinting to the player they can develop this state too
 				state = 188 #Memel, hinting to the player they can develop this state too
+				state = 1023 #Torun, hinting to the player they can develop this state too
+				state = 1024 #Bydgoszcz, hinting to the player they can develop this state too
 			}
 		}
 
@@ -14246,11 +14303,13 @@ GER_rebuild_the_nation_cat = {
 						state = 86 #Poznan - in case Germany has cored it
 						state = 762 #Katowice- in case Germany has cored it
 						state = 188 #Memel - in case Germany has cored it
+						state = 1023 #Torun - in case Germany has cored it
+						state = 1024 #Bydgoszcz - in case Germany has cored it
 					}
 				}
 				add_extra_state_shared_building_slots = 1
 				add_dynamic_modifier = { 
-					modifier = GER_public_works_modifier
+					modifier = GER_reichs_labor_initiative_modifier
 					days = 545
 					scope = GER
 				}
@@ -14395,7 +14454,6 @@ GER_rebuild_the_nation_cat = {
 			}
 		}
 	}
-
 }
 
 GER_influence_countries_cat = {
